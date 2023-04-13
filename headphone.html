@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+.container{
+display: grid;
+width: 100%;
+height: auto;
+border: .50em greenyellow double;
+margin: 0 auto;
+gap: 15px 15px;
+grid-template-areas: 'head head head head head'
+'side main main main side2'
+'last last last last last';
+}
+article, header, aside, footer{
+border: .25em red solid;
+text-align: center;
+}
+header{
+grid-area: head;
+background: linear-gradient(to right,orange ,white ,green );
+}
+aside{
+grid-area: side;
+background: conic-gradient(red, yellow, green);
+}
+article{
+grid-area: main;
+background: radial-gradient(red, yellow, green);
+
+}
+.side2{
+grid-area: side2;
+border: .25em red solid;
+text-align: center;
+background: linear-gradient(red, yellow, green);
+
+}
+footer{
+background: linear-gradient( yellow, red);
+grid-area: last;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+Discription About Product.
+</header>
+<aside>
+    <h1>Sony</h1><hr>
+    <div class='img'>
+        <img src="product02.png" width="400px" >
+    </div>
+    <hr>
+    <h2>Price</h2>
+    <h3><s>&#8377; 1500/-</s></h3>
+    <h2>&#8377; 750/-</h2>
+    
+</aside>
+
+<article>
+<pre>
+<h3>Sony MDRZX330BT/B Overview</h3>
+Giving you up to 30 hours of playback and talk time, the black MDR-ZX330BT 
+Bluetooth Stereo Headset from Sony boasts NFC compatibility for simplified,
+touch pairing.An integrated omnidirectional microphone allows for taking
+calls hands-free, while its pressure-relieving ear pads help assure a 
+comfortable fit during the extended listening session its battery enables.       
+<h3>Stream Your Music Wirelessly</h3>       
+Stream and control your Bluetooth audio experience with your compatible 
+music devices, digital music player, smartphone, tablet, or computer.       
+<h3>NFC Pairing</h3>
+Enjoy simplified Bluetooth audio streaming with Near Field Communications 
+(NFC) technology. Simply align your compatible devices and touch the NFC 
+logos to activate or deactivate pairing       
+<h3>Talk Hands-Free</h3>
+Experience hands-free calling thanks to the integrated microphone and 
+Bluetooth profile connectivity. Once your phone is paired, just press the
+phone button on the earpiece to accept incoming calls, then press 
+again to terminate the call.
+Music playback will automatically resume once the call is completed              
+<h3>Long Battery Life</h3>        
+The built-in rechargeable battery provides up to 30 hours of continuous,
+wireless music playback. For hands-free calling, you can speak freely for 
+up to 30 hours, or up to 300 hours of stand-by       
+Designed for Comfort.
+</pre>
+</article>
+
+<div class="side2">
+    <h1>Sony</h1><hr>
+    Headphones are a pair of small loudspeaker drivers worn on or around the head over a user's ears. They are electroacoustic transducers, which convert an electrical signal to a corresponding sound. Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear. Headphones are also known as earphones[1] or, colloquially, cans.[2] Circumaural ('around the ear') and supra-aural ('over the ear') headphones use a band over the top of the head to hold the speakers in place. Another type, known as earbuds or earpieces[1] consist of individual units that plug into the user's ear canal. A third type are bone conduction headphones, which typically wrap around the back of the head and rest in front of the ear canal, leaving the ear canal open. In the context of telecommunication, a headset is a combination of headphone and microphone.
+<hr>
+    <div class='img'>
+        <img src="offer.jpg" width="400px" >
+    </div>
+</div>
+
+
+<footer>
+Thanks for visiting 
+</footer>
+</div>
+
+</body>
+</html>

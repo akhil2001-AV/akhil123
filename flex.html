@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Example</title>
+
+    <style>
+        .maincontainer {
+            border: .5em solid black;
+            display: flex;
+            height: 93vh;
+            gap: .5em;
+            align-items: start;
+            background-color: aquamarine;
+            justify-content: space-around;
+        }
+
+        .subcontainer {
+            border: .5em solid red;
+            height: 50vh;
+            width: 20%;
+        }
+
+        .subcontainer:nth-child(even) {
+            align-self: flex-end;
+            text-align: center;
+
+        }
+        .subcontainer:nth-child(odd) {
+            align-self: flex-start;
+            text-align: center;
+
+        }
+        h3{
+          margin-top: 5px;
+          font-family: Times New Roman, Times, serif;
+          color: red;
+        }
+        @media screen and (min-width: 220px) {
+    body {
+      background-color: pink;
+    }
+          }
+    </style>
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="subcontainer">
+            <h1>Offer on every Monday </h1>
+            <h5><s>&#8377; 1500/-</s></h5>
+            <h5>&#8377; 750/-</h5>
+            <img src="product04.png"  width="68%">
+
+        </div>
+        <div class="subcontainer">
+            <h1>Reward</h1>
+            <img src="Reward.png"  width="90%">
+            <h3>Scratch Here</h3>
+        </div>
+        <div class="subcontainer">
+            <h1>Lucky Draw</h1>
+            <img src="lucky-draw.png"  width="90%">
+
+        </div>
+        <div class="subcontainer">
+            <h2>Discounts On Every Sales </h2>
+            <h5><s>&#8377; 1500/-</s></h5>
+            <h5>&#8377; 1050/-</h5>
+            <img src="download.jpeg"  width="80%">
+
+        </div>
+        <div class="subcontainer">
+            <h2>Hot summer Cloths</h2>
+            <h5><s>&#8377; 500/-</s></h5>
+            <h5>&#8377; 50/-</h5>
+            <img src="kid.webp"  width="70%">
+
+        </div>
+    </div>
+</body>
+
+</html>

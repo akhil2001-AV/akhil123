@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<style>
+		body {
+			background-color: #f7f7f7;
+			font-family: Arial, sans-serif;
+		}
+		
+		.container {
+			margin: 0 auto;
+			max-width: 500px;
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		}
+		h1 {
+			text-align: center;
+			color: #333;
+		}
+
+		form {
+			margin-top: 20px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 5px;
+			color: #333;
+		}
+
+		input[type=text], input[type=password] {
+			padding: 10px;
+			margin-bottom: 20px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			width: 100%;
+			box-sizing: border-box;
+		}
+
+		button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+
+		button:hover {
+			background-color: #3e8e41;
+		}
+
+		.error-message {
+			color: #f00;
+			font-size: 12px;
+			margin-top: 5px;
+		}
+
+		header
+		{
+			height: 100px;
+		}
+		
+		
+
+	</style>
+</head>
+<body 	background="Onlinestore.jpg">
+
+	<header></header>
+    <div class="container">
+		<h1>OnlineStore</h1>
+		<form>
+			<h2>Login</h2>
+			<label for="email">Email</label>
+			<input type="text" name="email" required>
+
+			<label for="password">Password </label>
+			<input type="password" name="password" required>
+			<button type="submit" formaction="/index.html" >Login </button>
+			<h3><a style="color:red" style="text-decoration: none"  href="signup.html">Register here! </h3>
+			<p class="error-message"></p>
+		</form>
+	</div>
+</body>
+</html>

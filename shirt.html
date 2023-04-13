@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+.container{
+display: grid;
+width: 100%;
+height: auto;
+margin: 0 auto;
+gap: 15px 15px;
+grid-template-areas: 'head head head head head'
+'side main main main side2'
+'last last last last last';
+}
+article, header, aside, footer{
+border: .25em red solid;
+text-align: center;
+}
+header{
+grid-area: head;
+background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+aside{
+grid-area: side;
+height: auto;
+background:linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+article{
+grid-area: main;
+height: auto;
+background: radial-gradient(rgba(255,0,0,0), rgba(255,0,0,1));
+
+}
+.side2{
+grid-area: side2;
+border: .25em red solid;
+height: auto;
+text-align: center;
+background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+
+}
+footer{
+background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+grid-area: last;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+Discription About Product.
+</header>
+<aside>
+    <h1>Shirt</h1><hr>
+    <div class='img'>
+        <img src="men.jpeg" width="350px" >
+    </div>
+    <hr>
+    <h2>Price</h2>
+    <h3><s>&#8377; 500/-</s></h3>
+    <h2>&#8377; 250/-</h2>
+    
+</aside>
+
+<article>
+<pre>
+<h3></h3>
+     
+<h3></h3>       
+     
+<h3>Experience hands-free calling thanks to the integrated microphone and 
+  Bluetooth profile connectivity. Once your phone is paired, just press the
+  phone button on the earpiece to accept incoming calls, then press 
+  again to terminate the call.
+  Music playback will automatically resume once the call is completed </h3>
+   
+<h3></h3>
+             
+<h3></h3>        
+
+</pre>
+</article>
+
+<div class="side2">
+    <h2>BRAND</h2><hr>
+    Headphones are a pair of small loudspeaker drivers worn on or around the head over a user's ears. They are electroacoustic transducers, which convert an electrical signal to a corresponding sound. Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear. Headphones are also known as earphones[1] or, colloquially, cans.[2] Circumaural ('around the ear') and supra-aural ('over the ear') headphones use a band over the top of the head to hold the speakers in place. Another type, known as earbuds or earpieces[1] consist of individual units that plug into the user's ear canal. A third type are bone conduction headphones, which typically wrap around the back of the head and rest in front of the ear canal, leaving the ear canal open. 
+<hr>
+    <div class='img'>
+        <img src="t-shirt.jpg" width="350px" >
+    </div>
+</div>
+
+
+<footer>
+Thanks for visiting 
+</footer>
+</div>
+
+</body>
+</html>
